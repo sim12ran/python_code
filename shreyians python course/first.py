@@ -180,5 +180,53 @@
 # for i in a:
 #     print(i)
 
-a=(1,)
-print(type(a))   #it is not a tuple because it is not enclosed in parentheses, it is an integer
+# a=(1,)
+# print(type(a))   #it is not a tuple because it is not enclosed in parentheses, it is an integer
+
+# set ={1,2,3,4}
+# for i in range(len(set)):
+#     print(set[i], end=" ")
+
+# a=[1,2,3,4,5]
+# b=a.copy()
+# b[0]=100
+# print(b)
+# print(a) 
+# a[1]=23
+# print(a)
+# print(b)
+
+# set ={1:10,20:20,3:30,4:40}
+# for i in range(len(set)):
+#     print(list(set.keys())[i], end=" ")
+
+# d1={1:10,20:20,3:30,4:40}       ----merge two dictionary
+# d2={5:50,6:60,7:70,8:80}
+# d1.update(d2)
+# print(d1)
+
+# d1={1:10,20:20,3:30,4:40}
+# d2={5:50,6:60,7:70,8:80}
+# d1=d2
+# d1[1]=100
+# # for i in d2:
+# #     d1[i]=d2[i]
+# print(d1) 
+# print(d2)             
+
+# lis=[1,1,1,1,2,2,2,3,3,3,4,4,4,5,6,7]
+# d={}
+# for i in lis:
+#     if i in d.keys():
+#         d[i]=d[i]+1
+#     else:
+#         d[i]=1
+# print(d)
+# type(d) 
+
+## FIle Hnadling------------------
+# p=open(r'C:\Users\simra\OneDrive\Desktop\python-4-Ai\hello.py')
+# print(p.read())
+
+p=open(r'C:\Users\simra\OneDrive\Desktop\python-4-Ai\shreyians python course\first.py')
+print(p.read())
